@@ -1,9 +1,12 @@
 import { Html, Head, Main, NextScript } from 'next/document'
+import { useState, useEffect } from "react";
+
 
 export default function Document() {
+
   return (
     <Html lang="en">
-      <Head />
+      <Head/>
       <body>
         <Main />
         <NextScript />
@@ -11,3 +14,4 @@ export default function Document() {
     </Html>
   )
 }
+

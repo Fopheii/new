@@ -1,0 +1,31 @@
+.inputField {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.inputField:focus {
+  border-color: blue;
+}
+
+.wrongUrl{
+  /* width: 100%; */
+  max-width: 760px;
+  margin: 0 auto;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  border-color: #e5c671;
+  border-radius: 4px;
+  border-style: solid;
+  border-width: 0 0 0 4px;
+  color: #261c01;
+  padding: 0.5em;
+  border-radius: 4px;
+  font-size: 1rem;
+  background-color: #fff7de;
+}
+.wronUrlText {
+  width: 100%;
+}
